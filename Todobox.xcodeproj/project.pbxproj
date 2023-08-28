@@ -13,6 +13,8 @@
 		F9E1276A2A9C27D700E40614 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9E127682A9C27D700E40614 /* Main.storyboard */; };
 		F9E1276C2A9C27D800E40614 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9E1276B2A9C27D800E40614 /* Assets.xcassets */; };
 		F9E1276F2A9C27D800E40614 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9E1276D2A9C27D800E40614 /* LaunchScreen.storyboard */; };
+		F9E127772A9C3E0A00E40614 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E127762A9C3E0A00E40614 /* EntryViewController.swift */; };
+		F9E127792A9C3E1C00E40614 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E127782A9C3E1C00E40614 /* TaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F9E1276B2A9C27D800E40614 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9E1276E2A9C27D800E40614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9E127702A9C27D800E40614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9E127762A9C3E0A00E40614 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		F9E127782A9C3E1C00E40614 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				F9E1276B2A9C27D800E40614 /* Assets.xcassets */,
 				F9E1276D2A9C27D800E40614 /* LaunchScreen.storyboard */,
 				F9E127702A9C27D800E40614 /* Info.plist */,
+				F9E127762A9C3E0A00E40614 /* EntryViewController.swift */,
+				F9E127782A9C3E1C00E40614 /* TaskViewController.swift */,
 			);
 			path = Todobox;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9E127672A9C27D700E40614 /* ViewController.swift in Sources */,
+				F9E127772A9C3E0A00E40614 /* EntryViewController.swift in Sources */,
+				F9E127792A9C3E1C00E40614 /* TaskViewController.swift in Sources */,
 				F9E127632A9C27D700E40614 /* AppDelegate.swift in Sources */,
 				F9E127652A9C27D700E40614 /* SceneDelegate.swift in Sources */,
 			);
